@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shipping: MyText
+  faq: MyText
+  contact: MyText
+  home: MyText
+  about: MyText
+  terms: MyText
+
+two:
+  shipping: MyText
+  faq: MyText
+  contact: MyText
+  home: MyText
+  about: MyText
+  terms: MyText

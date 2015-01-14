@@ -1,0 +1,21 @@
+<%= simple_form_for(@content) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :shipping, input_html: {class:'ckeditor'} %><hr><hr>
+    <%= f.input :faq, input_html: {class:'ckeditor'} %><hr><hr>
+    <%= f.input :contact, input_html: {class:'ckeditor'} %><hr><hr>
+    <%= f.input :home, input_html: {class:'ckeditor'} %><hr><hr>
+    <%= f.input :about, input_html: {class:'ckeditor'} %><hr><hr>
+    <%= f.input :terms, input_html: {class:'ckeditor'} %><hr><hr>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
+<style>
+$('.ckeditor').ckeditor({ 
+    //  optional  config  
+});
+</style>
